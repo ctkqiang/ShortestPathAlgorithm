@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathAlgorithm",
+            "request": "launch",
+            "mainClass": "code.ShortestPathAlgorithm",
+            "projectName": "Shortest Path Algorithm_b56e4772"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortestPathAlgorithm<Shortest Path Algorithm_b56e4772>",
+            "request": "launch",
+            "mainClass": "ShortestPathAlgorithm",
+            "projectName": "Shortest Path Algorithm_b56e4772"
+        }
+    ]
+}
