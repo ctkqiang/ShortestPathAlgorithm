@@ -28,5 +28,6 @@ class ShortestPathAlgorithm {
                 { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
 
         algorithm.dijkstra(graph, 0);
+
     }
 }
