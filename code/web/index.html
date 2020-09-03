@@ -12,15 +12,26 @@
 <body>
     <?php
         $vertexErr = "";
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            if (empty($_POST["Vertex"])) {
+                $vertexErr = "This Field Should Not Be Left Empty";
+            } else {
+                $vertex = text_input($POST["vertex"]);
+
+            }
+        }
     ?>
 
     <h2>Shortest Path Algorithm</h2>
     <p><span class="error">* Required Field</span></p>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        Vertex: <input type="text" name="vertex" value="<?php echo $vertex;?>">
-        <span class="error">* <?php echo $vertexErr;?></span>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+        Vertex: <input type=" text" name="vertex" value="" <span class=" error"><?php echo * $vertexErr;?></span>
         <input type="submit" name="submit" value="Submit">
+    </form>
 
+    <?php
+    echo $vertex;
+    ?>
 </body>
 
 </html>
