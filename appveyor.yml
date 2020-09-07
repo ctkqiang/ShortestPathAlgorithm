@@ -6,6 +6,7 @@ image: Ubuntu
 environment:
   matrix:
     - JDK_VERSION: 1.7
+    - NAME: Visual Studio Code
     
 # install:
 #   - apt install default-jdk
@@ -28,6 +29,5 @@ on_failure:
   - cmd: echo "Build Failed"
 
 
-environment:
-    matrix:
-        - NAME: Visual Studio Code
+
+        
