@@ -7,10 +7,13 @@ environment:
   matrix:
     - JDK_VERSION: 1.7
     
-install:
-  - apt install default-jdk
+# install:
+#   - apt install default-jdk
   
 before_test:
   - java --version
 
 platform: Any CPU
+
+run:
+  - java code/main.java
