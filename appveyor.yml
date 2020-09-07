@@ -5,8 +5,7 @@ image: Ubuntu
 
 environment:
   matrix:
-    - JAVA_VERSION: 7
-    - JAVA_VERSION: 8
+    - JDK_VERSION: 1.7
     
 install:
   - sudo apt install default-jdk
