@@ -8,7 +8,7 @@ environment:
     - JDK_VERSION: 1.7
     
 install:
-  - sudo apt install default-jdk
+  - apt install default-jdk
   
 before_test:
   - java --version
