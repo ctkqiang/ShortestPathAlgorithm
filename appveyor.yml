@@ -30,4 +30,4 @@ on_failure:
 
 environment:
     matrix:
-        - NAME: Visual Studi Code
+        - NAME: Visual Studio Code
