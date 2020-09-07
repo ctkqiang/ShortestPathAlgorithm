@@ -28,8 +28,8 @@ on_success:
 on_failure:
   - cmd: echo "Build Failed"
 
-deploy:
-  - provider: Environment
-    name: debug
-    on:
-      branch: master
+# deploy:
+#   - provider: Environment
+#     name: debug
+#     on:
+#       branch: master
