@@ -30,5 +30,6 @@ on_failure:
 
 deploy:
   - provider: Environment
+    name: vim
     on:
       branch: master
