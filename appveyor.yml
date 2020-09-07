@@ -15,3 +15,14 @@ before_test:
 
 platform: Any CPU
 
+configuration: Release
+
+hosts:
+  queue-server: 127.0.0.1
+  
+on_success:
+  - cmd: echo "Successfully build"
+  - cmd: java code/main.java
+
+on_failure:
+  - cmd: echo "Build Failed"
