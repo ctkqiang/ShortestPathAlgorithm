@@ -30,5 +30,4 @@ on_failure:
 
 deploy:
   - provider: Environment
-    name: localhost
-    website_name: http://127.0.0.1
+
