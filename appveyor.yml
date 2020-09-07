@@ -22,7 +22,7 @@ hosts:
   
 on_success:
   - cmd: echo "Successfully build"
-  - cmd: java code/main.java
+  - cmd: cd code && java main.java
 
 on_failure:
   - cmd: echo "Build Failed"
