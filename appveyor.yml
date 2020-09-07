@@ -13,3 +13,5 @@ install:
   
 before_test:
   - java --version
+
+platform: Any CPU
