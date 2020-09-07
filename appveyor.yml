@@ -15,5 +15,3 @@ before_test:
 
 platform: Any CPU
 
-run:
-  - java code/main.java
