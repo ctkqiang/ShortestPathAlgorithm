@@ -26,3 +26,8 @@ on_success:
 
 on_failure:
   - cmd: echo "Build Failed"
+
+
+environment:
+    matrix:
+        - NAME: Visual Studi Code
