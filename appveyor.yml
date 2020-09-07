@@ -6,7 +6,7 @@ image: Ubuntu
 environment:
   matrix:
     - JDK_VERSION: 1.7
-    - NAME: Visual Studio Code
+    - NAME: cuda
     
 # install:
 #   - apt install default-jdk
