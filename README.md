@@ -3,17 +3,15 @@
 --
 [![alt text][1.1]][1]
 [![alt text][2.1]][2]
-[![alt text][4.1]][4]
-[![alt text][5.1]][5]
-[![alt text][6.1]][6]
+[![alt text][3.1]][3]
 
 [1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 [2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
 
 [1]: http://www.twitter.com/johnmelodyme
 [2]: http://www.facebook.com/johnmelodyme
-[6]: http://www.github.com/johnmelodyme
+[3]: http://www.github.com/johnmelodyme
 
 [![Build status](https://ci.appveyor.com/api/projects/status/xaws7d1s0f4ho65b?svg=true)](https://ci.appveyor.com/project/johnmelodyme/shortestpathalgorithm)
 [![Build Status](https://travis-ci.org/johnmelodyme/ShortestPathAlgorithm.svg?branch=master)](https://travis-ci.org/johnmelodyme/ShortestPathAlgorithm)
