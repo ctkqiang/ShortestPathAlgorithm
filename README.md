@@ -1,6 +1,6 @@
 ##### Shortest Path Algorithm
 ###### by John Melody Me 
---
+---
 [![alt text][1.1]][1]
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
