@@ -29,6 +29,7 @@ public class algorithm {
                     dist[v] = dist[u] + graph[u][v];
                 }
             }
+
             output.solution(dist, V);
         }
     }

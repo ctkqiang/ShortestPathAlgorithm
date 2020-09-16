@@ -9,6 +9,13 @@
             "name": "CodeLens (Launch) - ShortestPathAlgorithm",
             "request": "launch",
             "mainClass": "code.ShortestPathAlgorithm",
+            "projectName": "ShortestPathAlgorithm_c3d92a48"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShortestPathAlgorithm",
+            "request": "launch",
+            "mainClass": "code.ShortestPathAlgorithm",
             "projectName": "Shortest Path Algorithm_b56e4772"
         },
         {
