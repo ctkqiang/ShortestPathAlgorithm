@@ -53,4 +53,5 @@ Graph = {(Vetex, Edges)}
 <br />
 
 ### Bitcoin:
-![](assets/btc.jpg)
+<!--![](assets/btc.jpg)-->
+My Bitcoin Address: 1FgUnCK8EML3W4WoN4p8PB5aRVFsbH4n6p
